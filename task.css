@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backimg{
+    background-image: url(./images/yello.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: auto 2rem;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 50%;
+}
+.content h3{
+    text-transform: uppercase;
+}
+.content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* main section */
+
+.mainpart{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    
+}
+.mainpart h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mainpart p{
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+.card{
+    border-style: none;
+}
+
+.row{
+    text-align: center;
+    
+}
+.card_header{
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300px;
+    margin: 25px 25px;
+}
+.card_text{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.dis{
+    background-image: url(./images/running.jpg);
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.lower_content{
+    margin-left: 10%;
+    /* margin-top: 30%; */
+    margin-right: 50%;
+    padding-top: 70px;
+}
+
+.bottom_part{
+    background-image: url(./images/girl.jpg);
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.botton_content{
+    margin-left: 10%;
+    /* margin-top: 30%; */
+    margin-right: 50%;
+    padding-top: 60px;
+    color: white;
+}
+.lower_secondlast{
+    /* background-image: url(./images/girl.jpg); */
+    height: 70vh;
+    width: 100%;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-position: center;
+
+
+}
+.rightside{
+    /* margin-left: 10%; */
+    /* margin-top: 30%; */
+    /* margin-right: 50%; */
+    display: inline-block;
+    padding-top: 60px;
+    
+
+}
+.imge{
+    display: inline-block;
+}
+
+.info{
+    height: 50vh;
+    width: 100%;
+}
+.contact_part{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.brief{
+    width: 40%;
+    padding-left: 10%;
+    padding-top: 30px;
+    float: left;
+}
+.fom{
+    float: left;
+    text-align: center;
+    align-items: center;
+    display: inline;
+    margin-left: 30PC;
+    padding-top: 30PX;
+    
+}
+input{
+    background: transparent;
+    border: 1px solid white;
+    width: 150%;
+}
+button{
+    text-transform: uppercase;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
